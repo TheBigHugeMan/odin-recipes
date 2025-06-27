@@ -1,0 +1,54 @@
+/* Apply border-box to all elements and their pseudo-elements */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body{
+    background-color: beige;
+}
+
+.title{
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.recipes, head{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.card{
+    display: block;
+    margin: auto;
+    border: 2px solid;
+    width: 600px;
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+a{
+    color: crimson;
+}
+
+.head{
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+.recipes{
+    font-size: 15px;
+}
+
+#content{
+    display: block;
+    border: 2px solid;
+    width: 70%;
+    margin: auto;
+    border-color: azure;
+    background-color: tan;
+}
